@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- .........Main  Section............. -->
+    <main>
+      <h1>TO-DO LIST</h1>
+      <div class="parent">
+        <div class="user-input">
+          <input type="text" name="" id="new-task" placeholder="Add new task" />
+          <button type="button" id="btn">ADD</button>
+        </div>
+        <div class="heading">
+          <div class="info">Complete all tasks</div>
+          <div id="clear-completeed-task" class="completed-task">
+            Clear completed task
+          </div>
+        </div>
+        <hr />
+        <div class="todo-list" id="main-parent"></div>
+        <hr />
+        <div class="highlight-item">
+          <div class="task-left"><span id="add-data">0</span> tasks left</div>
+        </div>
+      </div>
+    </main>
+    <!-- ...............script tag.......... -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
