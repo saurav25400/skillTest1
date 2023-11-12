@@ -40,7 +40,7 @@ let count =1;
 
 // common practice to add elements local storage for first time
 if(!localStorage.getItem('data')){
-    localStorage.setItem('data',JSON.stringify([]));
+    localStorage.setItem('data',JSON.stringify(['Go To Grocery Store','Play Cricket']));
 }
 
 let set=new Set();
